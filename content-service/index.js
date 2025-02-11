@@ -29,4 +29,4 @@ app.get('/content/:id', (req, res) => {
   });
 });
 
-app.listen(port, () => console.log(`Content service running on port ${port}`));
+app.listen(port, '0.0.0.0', () => console.log(`Content service running on port ${port}`));
